@@ -1,12 +1,24 @@
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+.navimg{
+    max-width: 50px;
+}
+.bodyimg{
+    max-width: 500px;
+}
 h1{
     color:  #025157;
 }
-
 .promotion{
     color: #8b8b8bcc;
 }
-
 button{
     color: #fff;
     background-color: #025157;
+}
+body{
+    background-color: #fffbf7;
 }
