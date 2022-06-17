@@ -1,8 +1,6 @@
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-size: 0;
+    margin: 40px 20px 0px;
   }
 
 .header >*{
@@ -19,6 +17,8 @@
 
 li{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .bodyimg{
@@ -39,17 +39,41 @@ li{
     text-align: center;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
+    height: 45px;
 }
 
 .actions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.actions>a{
+    color: #67b54b;
+}
+
+.actions>button{
+    color:white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.actions>*{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@import url("https://fonts.google.com/specimen/Shippori+Mincho+B1#standard-styles");
 
 h1{
     color:  #025157;
+    font-family: 'Shippori Mincho B1';
 }
 
 .promotion{
